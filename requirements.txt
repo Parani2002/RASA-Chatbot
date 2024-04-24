@@ -1,0 +1,12 @@
+# Activate virtual environment
+source .venv/bin/activate  
+
+
+
+
+rasa run -m models --enable-api --cors "*"
+
+
+
+#initial error occurs when running
+sqlalchemy<2.0
